@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'qki+0+25ix_p6v(3eee%n)s@m&r0mf#1)sz-e4-f52$zv4+mc3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['206.81.7.169','findmyhouse.live','www.findmyhouse.live']
+
 
 
 # Application definition
@@ -79,15 +79,7 @@ WSGI_APPLICATION = 'fmh.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'fmh',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost'
-    }
-}
+
 
 
 # Password validation
